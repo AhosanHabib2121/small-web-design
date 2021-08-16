@@ -1,0 +1,144 @@
+body{ 
+	margin:0;
+    padding:0;
+    background-color:#6DB0FF;  
+}	
+/*--twoLine>Responsive,css use here--*/
+.twoLine{
+	padding-top: 3%;
+	text-align: center;
+	line-height: 10px;
+	letter-spacing: 2px;
+	color: #FFF;
+	font-family: arial;
+	font-size: 18px;
+}
+.twoLine h4{
+	color: #DAE9FC;
+}
+/*--header>css use here--*/
+header{
+	background-color: #FFFFFF;
+	box-shadow: 9px 12px 15px #6666CC;
+	margin: 4% 4%;
+	width: 92%;
+}
+/*--logo img>css use here--*/
+#logo img{
+	margin-left: 20px;
+	height: 70px;
+	width: auto;
+	border-radius: 90%;
+}
+/*--nav-link> css use here--*/
+.nav-link{
+	margin: 10px;
+}
+.active{
+	text-decoration: underline;
+}
+.nav-link:hover{
+	text-decoration: underline;
+}
+/*--h2h4p>Responsive,css use here--*/
+.h2h4p{
+	padding: 5% 0 0 20%;
+	line-height: 25px;
+}
+/*--h2h4p-h2,h4,p,button>css use here--*/
+.h2h4p h2{
+	color: #3D3D3D;
+	font-weight: bold;
+}
+
+.h2h4p h4{
+	color: #000000;
+	font-family: arial;
+}
+.h2h4p p{
+	color: #606060;
+	font-family: arial;
+}
+.h2h4p button{
+	background-color: #00BAFF;
+	margin: 15px 0 40px 0;
+
+}
+/*--icon>css use here--*/
+.icon{
+	margin: 30px 0 50px 40px;
+}
+/*--icon-style>css use here--*/
+.icon-style{
+ 	margin: 5px;
+}
+/*--circle-1>css use here--*/
+#circle-1{
+	background-color:#00BAFF;
+	height: 30px;
+	width: 30px;
+	border-radius: 90px;
+	margin: 2% 0 0 70%;
+	padding: 6px;
+}
+/*--circle-2>css use here--*/
+#circle-2{
+	background-color:#00A8E6;
+	height: 40px;
+	width: 40px;
+	border-radius: 90px;
+	opacity:0.5;
+}
+/*--circle-3>Responsive,css use here--*/
+.circle-3{
+	background-color: #00BAFF;
+	height: 70%;
+	width: 60%;
+	border-radius: 90%;
+	margin: 2% 0 0 25%;
+	padding: 6px;
+}
+/*--circle-4>css use here--*/
+.circle-4{
+	background-color: #009ED8;
+	height: 90%;
+	width: 102%;
+	border-radius: 90%;
+	margin: 15px -1px;
+	
+}
+/*--circle-4 img>css use here--*/
+.circle-4 img{
+	height: 108%;
+	width: 100%;
+	border-radius: 90%;
+	margin: -38px -2px;
+	
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------
+                          Responsive desing > use start here
+-------------------------------------------------------------------------------------------*/
+@media(max-width:768px){
+	/*--twoLine>Responsive,css use here--*/
+	.twoLine{
+		padding: 4% 0 0 %;
+		font-size: 5px;
+	}
+	/*--h2h4p>Responsive,css use here--*/
+	.h2h4p{
+		padding: 5% 6% 0 20%;
+		line-height: 25px;
+	}
+	/*--circle-3>Responsive,css use here--*/
+	.circle-3{
+		margin-bottom:75%;
+	}
+
+
+}
+
+/*------------------------------Responsive desing > use end here------------------------*/
